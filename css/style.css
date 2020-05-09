@@ -1,0 +1,2998 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Rocky
+@URL: http://themexy
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: Home-Kit
+@Author: Masum
+@Developed By: Emran Khan
+@Developer URL: http://emran.webassassian.com
+
+@Default Styles
+
+Table of Content:
+01/ Variables
+02/ Search
+03/ Predefin
+04/ Property
+05/ Button
+06/ Header 
+07/ Slider 
+08/ Inside-gallery 
+09/ Agent 
+10/ Contact 
+11/ Testimonial 
+12/ Footer 
+13/ Faq  
+=====================================================================*/
+/*----------------------------------------------------*/
+/*font Variables*/
+/*Color Variables*/
+@font-face {
+  font-family: "monR";
+  src: url(../fonts/theme-font/Montserrat-Regular.woff);
+}
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.mix {
+  display: none;
+}
+
+@media (min-width: 1300px) {
+  .custome_container {
+    width: auto;
+    max-width: 1260px;
+    padding: 0px 15px;
+  }
+}
+/* Home Add css
+============================================================================================ */
+.add_space {
+  padding-top: 30px;
+  overflow: hidden;
+}
+.add_space img {
+  max-width: 100%;
+}
+
+.add_space.middle_add {
+  padding-top: 0;
+}
+
+/* End Home Add css
+============================================================================================ */
+/* Recommended tittle css
+============================================================================================ */
+.re_tittle h2 {
+  font-size: 26px;
+  font-family: "Roboto Slab", serif;
+  color: #3c4351;
+}
+
+/* End Recommended tittle css
+============================================================================================ */
+/* Microsoft Brand area css
+============================================================================================ */
+.microsoft_brand_area {
+  background: #fff;
+  padding: 60px;
+  margin-bottom: 60px;
+}
+.microsoft_brand_area img {
+  max-width: 100%;
+}
+.microsoft_brand_area p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #636c7f;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+.microsoft_brand_area p + p {
+  padding: 0;
+}
+
+/*Prefix Styles*/
+.m0 {
+  margin: 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+/* End Microsoft Brand area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row.m0 {
+  margin: 0;
+  padding: 0;
+}
+
+/* First Header 
+============================================================================================ */
+.first_header {
+  background: #273649;
+  padding: 13.5px 0;
+}
+.first_header .live_chat_area a {
+  color: #7d94b1;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: .20px;
+  padding-right: 20px;
+}
+.first_header .live_chat_area a i {
+  padding-right: 10px;
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+}
+.first_header .live_chat_area a + a {
+  padding-left: 20px;
+  padding-right: 0;
+  border-left: 1px solid #394a5f;
+}
+.first_header .language_area .btn-group.bootstrap-select {
+  width: auto;
+  position: relative;
+  top: 3px;
+}
+.first_header .language_area .btn-group.bootstrap-select .btn.dropdown-toggle {
+  background: transparent;
+  color: #7d94b1;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  outline: none;
+}
+.first_header .language_area .btn-group.bootstrap-select .btn.dropdown-toggle span {
+  text-shadow: none;
+}
+.first_header .language_area .btn-group.bootstrap-select .btn.dropdown-toggle .filter-option.pull-left {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #7d94b1;
+  letter-spacing: .20px;
+  padding-right: 30px;
+}
+.first_header .language_area .btn-group.bootstrap-select .btn.dropdown-toggle .filter-option.pull-left:focus {
+  outline: none;
+}
+.first_header .language_area .btn-group.bootstrap-select .btn.dropdown-toggle:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.first_header .language_area .btn-group.bootstrap-select .btn.dropdown-toggle .bs-caret {
+  position: relative;
+  right: 30px;
+}
+.first_header .language_area .btn-group.bootstrap-select .btn.dropdown-toggle .bs-caret .caret {
+  display: none;
+}
+.first_header .language_area .btn-group.bootstrap-select .btn.dropdown-toggle .bs-caret:before {
+  content: "\f107";
+  color: #7d94b1;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.first_header .language_area .btn-group.bootstrap-select.open .dropdown-toggle {
+  box-shadow: none;
+}
+.first_header .language_area .btn-group.bootstrap-select .dropdown-menu {
+  background: #273649;
+  padding: 0px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+.first_header .language_area .btn-group.bootstrap-select .dropdown-menu ul {
+  margin-top: 13px;
+}
+.first_header .language_area .btn-group.bootstrap-select .dropdown-menu ul li a {
+  color: #7d94b1;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: .20px;
+  text-align: left;
+  padding: 5px 5px;
+}
+.first_header .language_area .btn-group.bootstrap-select .dropdown-menu ul li:hover a, .first_header .language_area .btn-group.bootstrap-select .dropdown-menu ul li.selected a, .first_header .language_area .btn-group.bootstrap-select .dropdown-menu ul li:focus a {
+  background: #2c92e0;
+  color: #fff;
+  outline: none;
+}
+
+/* End First Header 
+============================================================================================ */
+/* Logo Area
+============================================================================================ */
+.logo_area {
+  padding: 40px 0px;
+  background: #f0f3f8;
+}
+.logo_area .website_logo img {
+  max-width: 100%;
+}
+.logo_area .btn-group.bootstrap-select {
+  width: auto !important;
+  margin-left: -3px;
+}
+@-moz-document url-prefix() {
+  .logo_area .btn-group.bootstrap-select {
+    position: relative;
+    top: -1px;
+  }
+}
+.logo_area .btn-group.bootstrap-select .btn.dropdown-toggle {
+  background: #fff;
+  color: #576277;
+  border-right: 1px solid #e7ebf1;
+  border-top: 1px solid #e7ebf1;
+  border-bottom: 1px solid #e7ebf1;
+  border-left: none;
+  line-height: 48px;
+  padding: 0 6px 0 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.logo_area .btn-group.bootstrap-select .btn.dropdown-toggle:before {
+  content: "";
+  height: 30px;
+  width: 1px;
+  background: #e7ebf1;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.logo_area .btn-group.bootstrap-select .btn.dropdown-toggle .filter-option.pull-left {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #576277;
+  letter-spacing: .20px;
+  padding-right: 18px;
+  padding-left: 20px;
+}
+.logo_area .btn-group.bootstrap-select .btn.dropdown-toggle .filter-option.pull-left:focus {
+  outline: none;
+}
+.logo_area .btn-group.bootstrap-select .btn.dropdown-toggle:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.logo_area .btn-group.bootstrap-select .btn.dropdown-toggle .bs-caret {
+  position: relative;
+  right: 24px;
+  top: 2px;
+}
+.logo_area .btn-group.bootstrap-select .btn.dropdown-toggle .bs-caret .caret {
+  display: none;
+}
+.logo_area .btn-group.bootstrap-select .btn.dropdown-toggle .bs-caret:before {
+  content: "\f107";
+  color: #576277;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.logo_area .btn-group.bootstrap-select.open .dropdown-toggle {
+  box-shadow: none;
+}
+.logo_area .btn-group.bootstrap-select .dropdown-menu {
+  background: #273649;
+  padding: 0px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+.logo_area .btn-group.bootstrap-select .dropdown-menu ul {
+  margin-top: 0px;
+}
+.logo_area .btn-group.bootstrap-select .dropdown-menu ul li a {
+  color: #7d94b1;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: .20px;
+  text-align: left;
+  padding: 7px 5px;
+}
+.logo_area .btn-group.bootstrap-select .dropdown-menu ul li:hover a, .logo_area .btn-group.bootstrap-select .dropdown-menu ul li.selected a, .logo_area .btn-group.bootstrap-select .dropdown-menu ul li:focus a {
+  background: #2c92e0;
+  color: #fff;
+  outline: none;
+}
+.logo_area .cart_area {
+  float: right;
+}
+.logo_area .cart_area .wishlist {
+  display: inline-block;
+  text-align: center;
+}
+.logo_area .cart_area .wishlist i {
+  font-size: 36px;
+  color: #576277;
+}
+.logo_area .cart_area .wishlist h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #576277;
+  padding-top: 8px;
+}
+.logo_area .cart_area .cart {
+  display: inline-block;
+  text-align: center;
+  padding-left: 35px;
+  position: relative;
+}
+.logo_area .cart_area .cart i {
+  font-size: 36px;
+  color: #576277;
+}
+.logo_area .cart_area .cart h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #576277;
+  padding-top: 8px;
+}
+.logo_area .cart_area .cart span {
+  background: #f96666;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  line-height: 26px;
+  color: #fff;
+  position: absolute;
+  right: -8px;
+  top: -10px;
+}
+
+.find_item_inner {
+  padding-top: 5px;
+}
+.find_item_inner input {
+  max-width: 385px;
+  width: 100%;
+  border-left: 1px solid #e7ebf1;
+  border-top: 1px solid #e7ebf1;
+  border-bottom: 1px solid #e7ebf1;
+  border-right: 0px;
+  line-height: 48px;
+  background: #fff;
+  padding: 0px 10px 0 18px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  height: 50px;
+}
+.find_item_inner input:focus {
+  outline: none;
+}
+.find_item_inner input.placeholder {
+  color: #576277;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.find_item_inner input:-moz-placeholder {
+  color: #576277;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.find_item_inner input::-moz-placeholder {
+  color: #576277;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.find_item_inner input::-webkit-input-placeholder {
+  color: #576277;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.find_item_inner .find_button {
+  position: relative;
+  top: 2px;
+  left: -4px;
+}
+
+/* End Logo Area
+============================================================================================ */
+/* Main Menu
+============================================================================================ */
+.main_menu_area .navbar.navbar-default {
+  border: none;
+  margin-bottom: 0;
+  background: #2c92e0;
+  border-radius: 0px;
+  min-height: auto;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse {
+  padding: 0;
+  position: relative;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li {
+  padding: 0px 20px;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li a {
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background: transparent;
+  line-height: 60px;
+  transition: all 400ms linear 0s;
+  text-shadow: none;
+  font-size: 16px;
+  box-shadow: none;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li a i {
+  font-size: 10px;
+  color: #94cbf5;
+  padding-left: 5px;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:first-child {
+  padding-left: 0px;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:hover a {
+  color: #273649;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.toggle_menu .dropdown-menu {
+  border: none;
+  background: #273649;
+  border-radius: 0px;
+  text-align: left;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.toggle_menu .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateZ(0);
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: all 400ms linear 0s;
+  }
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.toggle_menu .dropdown-menu li {
+  padding: 0;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.toggle_menu .dropdown-menu li a {
+  color: #fff;
+  padding: 15px 10px;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: all 400ms linear 0s;
+  border-bottom: 1px solid #2c92e0;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.toggle_menu .dropdown-menu li:hover a {
+  background: #2c92e0;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.toggle_menu .dropdown-menu li:last-child a {
+  border-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.toggle_menu:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu {
+  position: static;
+  border-radius: 0px;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu .dropdown-menu {
+  background: #fff;
+  overflow: hidden;
+  max-width: 100%;
+  min-width: 200px;
+  padding: 20px;
+  box-shadow: none;
+  border: none;
+  margin: 0px;
+  background: #273649;
+  border-radius: 0px;
+}
+@media (min-width: 768px) {
+  .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateZ(0);
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: all 400ms linear 0s;
+  }
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu .dropdown-menu li {
+  float: left;
+  color: black;
+  padding: 0px;
+  min-width: 200px;
+  display: table-cell;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu .dropdown-menu li a {
+  color: #fff;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu .dropdown-menu li .nav li {
+  float: none;
+  display: block;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu .dropdown-menu li .nav li a {
+  color: #fff;
+  padding: 15px 10px;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: all 400ms linear 0s;
+  padding: 10px 15px;
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu .dropdown-menu li .nav li a:hover {
+  color: #2883c9;
+}
+@media (min-width: 768px) {
+  .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.dropdown.meg_menu:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav.navbar-right li a i {
+  margin-right: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* End Main Menu
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Find Button css
+============================================================================================ */
+.find_button {
+  background: #2c92e0;
+  line-height: 48px;
+  display: inline-block;
+  padding: 0 35px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: all 400ms linear 0s;
+}
+.find_button:hover {
+  background: #2883c9;
+  color: #fff;
+}
+
+/* End Find Button css
+============================================================================================ */
+/* Add To Cart Button css
+============================================================================================ */
+.add_to_cart {
+  background: #2c92e0;
+  line-height: 40px;
+  display: inline-block;
+  max-width: 167px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  transition: all 400ms linear 0s;
+  z-index: 2;
+  border-radius: 3px;
+  padding-left: 40px;
+}
+.add_to_cart i {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.add_to_cart:before {
+  content: "";
+  background: #2883c9;
+  width: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  transition: all 400ms linear 0s;
+  z-index: -1;
+  border-radius: 3px;
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.add_to_cart:hover {
+  color: #fff;
+}
+.add_to_cart:hover:before {
+  width: 100%;
+}
+
+/* End Add To Cart Button css
+============================================================================================ */
+/* Submit Button css
+============================================================================================ */
+.submit_btn {
+  max-width: 180px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  background: #2c92e0;
+  color: #fff;
+  vertical-align: middle;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 2;
+  position: relative;
+}
+.submit_btn:before {
+  content: "";
+  background: #2883c9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 3px;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  transition: all 400ms linear 0s;
+}
+.submit_btn:hover:before {
+  transform: scaleX(1);
+}
+
+/* End Submit Button css
+============================================================================================ */
+/* Cart Button css
+============================================================================================ */
+.cart_btn {
+  max-width: 180px;
+  width: 100%;
+  text-align: center;
+  background: #b9bfcc;
+  display: inline-block;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 40px;
+  z-index: 2;
+  position: relative;
+}
+.cart_btn:before {
+  content: "";
+  background: #2c92e0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  transition: all 400ms linear 0s;
+}
+.cart_btn:hover {
+  color: #fff;
+}
+.cart_btn:hover:before {
+  transform: scaleX(1);
+}
+
+.add_cart {
+  background: #2c92e0;
+  line-height: 50px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  transition: all 400ms linear 0s;
+  z-index: 2;
+  border-radius: 3px;
+  padding-left: 60px;
+  padding-right: 15px;
+}
+.add_cart i {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.add_cart:before {
+  content: "";
+  background: #2883c9;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  transition: all 400ms linear 0s;
+  z-index: -1;
+  border-radius: 3px;
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.add_cart:hover {
+  color: #fff;
+}
+.add_cart:hover:before {
+  width: 100%;
+}
+
+/* End Cart Button css
+============================================================================================ */
+/* blog btn style css
+============================================================================================ */
+.f_subs_btn {
+  background: #2c92e0;
+  line-height: 42px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 3px;
+  position: relative;
+  z-index: 3;
+  transform: translateZ(0);
+  transition: all 400ms linear 0s;
+}
+.f_subs_btn:before {
+  content: "";
+  background: #2883c9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 3px;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  transition: all 400ms linear 0s;
+}
+.f_subs_btn:hover {
+  color: #fff;
+}
+.f_subs_btn:hover:before {
+  transform: scaleX(1);
+}
+
+/* End blog btn style css
+============================================================================================ */
+.add_cart.Send_Message {
+  max-width: 198px;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  display: block;
+  margin: 30px auto;
+}
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Home slider area
+============================================================================================ */
+.main_slider_area .main_slider_inner .slider_text_main {
+  position: relative;
+  height: 700px;
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  z-index: 9999;
+  color: #fff;
+  transform: translateY(-50%);
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+  max-width: 570px;
+  padding: 30px 0px 75px 0;
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 35px;
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text h3 span {
+  font-size: 24px;
+  margin-left: 20px;
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text .slider_btn {
+  background: #2c92e0;
+  line-height: 50px;
+  display: inline-block;
+  max-width: 210px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+  position: relative;
+  transition: all 400ms linear 0s;
+  z-index: 2;
+  border-radius: 3px;
+  padding-left: 35px;
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text .slider_btn i {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text .slider_btn:before {
+  content: "";
+  background: #2883c9;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  transition: all 400ms linear 0s;
+  z-index: -1;
+  border-radius: 3px;
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.main_slider_area .main_slider_inner .slider_text_main .slider_text .slider_btn:hover:before {
+  width: 100%;
+}
+.main_slider_area .main_slider_inner .camera_prev, .main_slider_area .main_slider_inner .camera_next {
+  background: #f0f3f8;
+  transition: all 400ms linear 0s;
+}
+.main_slider_area .main_slider_inner .camera_prev:hover, .main_slider_area .main_slider_inner .camera_next:hover {
+  background: #d8d8d8;
+}
+
+/* End Home slider area
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Product Grid css
+============================================================================================ */
+.product_categori_list .men_clothing {
+  margin-top: 30px;
+}
+.product_categori_list .men_clothing .men_clothing_heading {
+  background: #f0f3f8;
+  border-bottom: 2px solid #2c92e0;
+}
+.product_categori_list .men_clothing .men_clothing_heading .men_cl {
+  color: #2c92e0;
+  font-size: 16px;
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+  padding: 0px 30px;
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+}
+.product_categori_list .men_clothing .men_clothing_heading .men_cl i {
+  margin-right: 20px;
+}
+.product_categori_list .men_clothing .men_clothing_heading nav {
+  display: table-cell;
+  width: 98%;
+}
+.product_categori_list .men_clothing .men_clothing_heading nav .nav.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: none;
+}
+.product_categori_list .men_clothing .men_clothing_heading nav .nav.nav-tabs li {
+  float: none;
+}
+.product_categori_list .men_clothing .men_clothing_heading nav .nav.nav-tabs li a {
+  padding: 0;
+  border: none;
+  background: transparent;
+  line-height: 60px;
+  display: inline-block;
+  font-size: 16px;
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+}
+.product_categori_list .men_clothing .all_categories {
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #636c7f;
+  padding: 0px 28px;
+  background: #e2e6ec;
+  vertical-align: middle;
+}
+.product_categori_list .men_clothing .all_categories i {
+  display: inline-block;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item {
+  float: left;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item img {
+  max-width: 100%;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text {
+  position: absolute;
+  width: 100%;
+  background: rgba(39, 54, 73, 0.5);
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  transform: translateZ(0);
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  transition: all 400ms linear 0s;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text h4 {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text h4 i {
+  float: right;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text h5 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 10px 0px 18px 0;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text h6 {
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  padding-top: 6px;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text a {
+  float: right;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two {
+  position: absolute;
+  width: 100%;
+  background: rgba(39, 54, 73, 0.5);
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+  transform: translateZ(0);
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  transition: all 400ms linear 0s;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two h4 {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  padding-bottom: 18px;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two h6 {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 9px;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item:hover .men_clithing_item_text {
+  transform: scaleY(1);
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item:hover .men_clithing_item_text_two {
+  transform: scaleY(1);
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_small h4 {
+  font-size: 13px;
+  padding-bottom: 0;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_small h6 {
+  font-size: 12px;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_small .favourite_icon {
+  padding-top: 10px;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_small .favourite_icon a {
+  line-height: 25px;
+  height: 30px;
+  width: 30px;
+}
+.product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_small .favourite_icon a i {
+  font-size: 13px;
+}
+
+.favourite_icon {
+  text-align: right;
+  float: right;
+  display: inline-block;
+}
+.favourite_icon a {
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  line-height: 44px;
+  transition: all 400ms linear 0s;
+  margin-left: 8px;
+  font-size: 24px;
+}
+.favourite_icon a + a {
+  padding-left: 2px;
+  line-height: 46px;
+}
+.favourite_icon a:hover, .favourite_icon a.active {
+  background: #2c92e0;
+}
+
+.product_categori_list.women_product_categori_list .men_clothing .men_clothing_heading {
+  border-bottom: 2px solid #ec2b9c;
+}
+.product_categori_list.women_product_categori_list .men_clothing .men_clothing_heading .men_cl {
+  color: #ec2b9c;
+}
+.product_categori_list.women_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text .add_to_cart {
+  background: #ec2b9c;
+}
+.product_categori_list.women_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text .add_to_cart:before {
+  background: #d4278c;
+}
+.product_categori_list.women_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two .favourite_icon a:hover, .product_categori_list.women_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two .favourite_icon a.active {
+  background: #ec2b9c;
+}
+
+.product_categori_list.phone_product_categori_list .men_clothing .men_clothing_heading {
+  border-bottom: 2px solid #266bea;
+}
+.product_categori_list.phone_product_categori_list .men_clothing .men_clothing_heading .men_cl {
+  color: #266bea;
+}
+.product_categori_list.phone_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text .add_to_cart {
+  background: #266bea;
+}
+.product_categori_list.phone_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text .add_to_cart:before {
+  background: #2260d2;
+}
+.product_categori_list.phone_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two .favourite_icon a:hover, .product_categori_list.phone_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two .favourite_icon a.active {
+  background: #266bea;
+}
+
+.product_categori_list.computer_product_categori_list .men_clothing .men_clothing_heading {
+  border-bottom: 2px solid #96d036;
+}
+.product_categori_list.computer_product_categori_list .men_clothing .men_clothing_heading .men_cl {
+  color: #96d036;
+}
+.product_categori_list.computer_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text .add_to_cart {
+  background: #96d036;
+}
+.product_categori_list.computer_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text .add_to_cart:before {
+  background: #87bb30;
+}
+.product_categori_list.computer_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two .favourite_icon a:hover, .product_categori_list.computer_product_categori_list .men_clothing .men_clothing_body .tab-content .tab-pane .men_clithing_item .men_clithing_item_text_two .favourite_icon a.active {
+  background: #96d036;
+}
+
+/* End Product Grid css
+============================================================================================ */
+/* Recommended product css
+============================================================================================ */
+.recomanded_product .re_tittle {
+  padding: 27px 0px;
+}
+
+.recomanded_feature {
+  padding-top: 70px;
+}
+
+.re_product_inner {
+  margin-bottom: 30px;
+  transition: all 400ms linear 0s;
+  cursor: pointer;
+}
+.re_product_inner img {
+  max-width: 100%;
+}
+.re_product_inner .re_product_price {
+  background: #f0f3f8;
+  padding: 20px;
+  overflow: hidden;
+}
+.re_product_inner .re_product_price h4 {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  color: #636c7f;
+  padding-top: 5px;
+}
+.re_product_inner .re_product_price .re_product_checkout {
+  float: right;
+}
+.re_product_inner .re_product_price .re_product_checkout a {
+  display: inline-block;
+  padding-right: 15px;
+}
+.re_product_inner .re_product_price .re_product_checkout a i {
+  color: #636c7f;
+  font-size: 24px;
+}
+.re_product_inner .re_product_price .re_product_checkout a + a {
+  padding-right: 0;
+}
+.re_product_inner:hover {
+  -webkit-box-shadow: 2px 3px 20px -2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 3px 20px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 3px 20px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* End Recommended product css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Home Feature css
+============================================================================================ */
+.home_product_feature {
+  padding: 30px 0px 60px 0px;
+}
+.home_product_feature .home_feature_inner {
+  border: 1px solid #e9ecf3;
+}
+.home_product_feature .home_feature_inner .col-md-3:last-child .home_feature_inner_content {
+  border-right: 0px;
+}
+
+.home_feature_inner_content {
+  text-align: center;
+  padding: 60px 30px;
+  border-right: 1px solid #e9ecf3;
+}
+.home_feature_inner_content img {
+  max-width: 100%;
+}
+.home_feature_inner_content h4 {
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  color: #3c4351;
+  padding: 23px 0px;
+}
+.home_feature_inner_content p {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+}
+
+/* End Home Feature css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Men Clothing area css
+============================================================================================ */
+.men_clothing_tittle h2 {
+  font-size: 22px;
+  color: #3c4351;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  border-left: 3px solid #2c92e0;
+  line-height: 16px;
+  padding-left: 8px;
+  margin-top: 28px;
+  text-transform: uppercase;
+}
+
+.s_widget_tittle {
+  border-bottom: 1px solid #f4f5f9;
+}
+.s_widget_tittle h4 {
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  color: #3c4351;
+  line-height: 50px;
+  padding-left: 30px;
+}
+
+.s_widget {
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.s_widget_categories ul li a {
+  line-height: 50px;
+  display: block;
+  font-size: 16px;
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  border-bottom: 1px solid #f4f5f9;
+  padding-left: 30px;
+  transition: all 400ms linear 0s;
+}
+.s_widget_categories ul li a i {
+  margin-right: 18px;
+}
+.s_widget_categories ul li a:hover {
+  color: #3c4351;
+}
+
+.s_widget_brand ul {
+  padding: 20px 0px;
+}
+.s_widget_brand ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  line-height: 40px;
+  padding-left: 54px;
+  position: relative;
+}
+.s_widget_brand ul li a:before {
+  content: "";
+  height: 14px;
+  width: 14px;
+  border: 1px solid #cbced8;
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: 30px;
+  transition: all 400ms linear 0s;
+}
+.s_widget_brand ul li a:after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #2c92e0;
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 33px;
+  opacity: 0;
+  transition: all 400ms linear 0s;
+}
+.s_widget_brand ul li:hover a:before, .s_widget_brand ul li.active a:before {
+  border: 1px solid #2c92e0;
+}
+.s_widget_brand ul li:hover a:after, .s_widget_brand ul li.active a:after {
+  opacity: 1;
+}
+
+.s_widget_price_range .range_slider {
+  padding: 30px 30px 28px 30px;
+}
+.s_widget_price_range .range_slider input {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f !important;
+  font-weight: normal !important;
+  padding-left: 9px;
+  padding-top: 10px;
+}
+.s_widget_price_range .range_slider .ui-slider {
+  border: none;
+  background: #edeff5;
+  height: 4px;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+.s_widget_price_range .range_slider .ui-slider .ui-slider-range {
+  background: #2c92e0;
+}
+.s_widget_price_range .range_slider .ui-slider .ui-slider-handle {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background: #2883c9;
+  border: none;
+  top: -7px;
+  cursor: pointer;
+  outline: none;
+}
+.s_widget_price_range .range_slider .ui-slider .ui-slider-handle:before {
+  content: "";
+  background: #2c92e0;
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  border-radius: 50%;
+}
+
+.s_widget_add img {
+  max-width: 100%;
+}
+
+.s_widget_t_product .t_product_inner .item_t_product {
+  padding: 30px 0px 30px 30px;
+  border-bottom: 1px solid #f4f5f9;
+}
+.s_widget_t_product .t_product_inner .item_t_product .media .media-left {
+  padding-right: 20px;
+}
+.s_widget_t_product .t_product_inner .item_t_product .media .media-body h4 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  transition: all 400ms linear 0s;
+  padding-bottom: 15px;
+  font-weight: normal;
+}
+.s_widget_t_product .t_product_inner .item_t_product .media .media-body h5 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  font-weight: normal;
+}
+.s_widget_t_product .t_product_inner .item_t_product:hover .media .media-body h4 {
+  color: #3c4351;
+}
+
+/* End Men Clothing area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Men Clothing Product area css
+============================================================================================ */
+.men_clothing_area, .clothing_two_sidebar_area {
+  background: #f4f5f9;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.men_clothing_product_item {
+  margin-top: 30px;
+  transition: all 400ms linear 0s;
+}
+.men_clothing_product_item .men_item_image {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.men_clothing_product_item .men_item_image img {
+  max-width: 100%;
+}
+.men_clothing_product_item .men_item_image .secondary_img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 200ms linear;
+}
+.men_clothing_product_item .men_item_image:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.men_clothing_product_item .men_item_content {
+  background: #fff;
+  overflow: hidden;
+  padding: 20px;
+}
+.men_clothing_product_item .men_item_content h3 {
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  color: #3c4351;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.men_clothing_product_item .men_item_content h4 {
+  display: inline-block;
+  font-size: 16px;
+  color: #636c7f;
+  padding-top: 10px;
+}
+.men_clothing_product_item .men_item_content .favourite_icon a {
+  color: #636c7f;
+}
+.men_clothing_product_item .men_item_content .favourite_icon a:hover, .men_clothing_product_item .men_item_content .favourite_icon a.active {
+  color: #fff;
+}
+.men_clothing_product_item:hover {
+  -webkit-box-shadow: 2px 3px 20px -2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 3px 20px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 3px 20px -2px rgba(0, 0, 0, 0.2);
+}
+.men_clothing_product_item:hover .men_item_image .secondary_img {
+  opacity: 1;
+}
+
+.pagination.product_pagination {
+  text-align: center;
+  display: block;
+  padding-top: 60px;
+  margin: 0;
+}
+.pagination.product_pagination li {
+  float: none;
+  margin-right: 8px;
+}
+.pagination.product_pagination li a {
+  float: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  border-radius: 3px;
+  font-size: 18px;
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  transition: all 400ms linear 0s;
+}
+.pagination.product_pagination li:last-child {
+  margin-right: 0;
+}
+.pagination.product_pagination li:hover a {
+  background: #fff;
+  color: #2c92e0;
+}
+
+/* End Men Clothing Product area css
+============================================================================================ */
+/* Men Clothing 2 sidebar Product area css
+============================================================================================ */
+.clothing_two_sidebar_area {
+  overflow: hidden;
+}
+.clothing_two_sidebar_area .clothing_left_sidebar {
+  width: 25.2%;
+  float: left;
+  overflow: hidden;
+  padding-right: 15px;
+}
+.clothing_two_sidebar_area .clothing_left_sidebar .clothing_left_inner {
+  max-width: 285px;
+  float: right;
+}
+.clothing_two_sidebar_area .clothing_middle_area {
+  width: 49.6%;
+  float: left;
+  overflow: hidden;
+}
+.clothing_two_sidebar_area .clothing_middle_area .men_clothing_product_inner .men_clothing_add {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.clothing_two_sidebar_area .clothing_middle_area .men_clothing_product_inner .men_clothing_add img {
+  max-width: 100%;
+}
+.clothing_two_sidebar_area .clothing_middle_area .men_clothing_product_inner .men_clothing_tittle {
+  padding: 0px 15px;
+}
+.clothing_two_sidebar_area .clothing_right_sidebar {
+  width: 25.2%;
+  float: right;
+  overflow: hidden;
+  padding-left: 15px;
+}
+.clothing_two_sidebar_area .clothing_right_sidebar .right_sidebar_inner {
+  max-width: 285px;
+}
+
+/* End Men Clothing 2 sidebar Product area css
+============================================================================================ */
+/* Product grid chart area css
+============================================================================================ */
+.short_by_listing_area {
+  padding-bottom: 40px;
+  border-bottom: 2px solid #e5e6ed;
+  margin-bottom: 30px;
+}
+.short_by_listing_area .short_by_left {
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+}
+.short_by_listing_area .short_by_left h2 {
+  display: inline-block;
+  font-size: 18px;
+  color: #3a4b51;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-right: 8px;
+}
+.short_by_listing_area .short_by_left h2 i {
+  color: #3a4b51;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.short_by_listing_area .short_by_left .bootstrap-select {
+  width: 162px !important;
+}
+.short_by_listing_area .short_by_left .bootstrap-select .dropdown-toggle {
+  background: transparent;
+  border: 1px solid #e1e2e9;
+  outline: none !important;
+  box-shadow: none;
+}
+.short_by_listing_area .short_by_left .bootstrap-select .dropdown-toggle .filter-option {
+  font-size: 14px;
+  color: #617279;
+  font-family: "Roboto", sans-serif;
+}
+.short_by_listing_area .short_by_left .bootstrap-select .dropdown-toggle .bs-caret .caret {
+  display: none;
+}
+.short_by_listing_area .short_by_left .bootstrap-select .dropdown-toggle .bs-caret:before {
+  content: "\e874";
+  font-family: 'Linearicons-Free';
+  color: #617279;
+  font-size: 11px;
+}
+.short_by_listing_area .short_by_left .bootstrap-select .dropdown-menu .dropdown-menu.inner li a {
+  outline: none;
+}
+.short_by_listing_area .middle_bar {
+  display: table-cell;
+  width: 98%;
+  text-align: center;
+}
+.short_by_listing_area .middle_bar a {
+  color: #a6b3bc;
+  font-size: 20px;
+  padding-right: 20px;
+  transition: all 400ms linear 0s;
+}
+.short_by_listing_area .middle_bar a + a {
+  padding-right: 0px;
+}
+.short_by_listing_area .middle_bar a:hover, .short_by_listing_area .middle_bar a.active {
+  color: #96d036;
+}
+.short_by_listing_area .item_right {
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+}
+.short_by_listing_area .item_right h2 {
+  display: inline-block;
+  font-size: 18px;
+  color: #3a4b51;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding-right: 20px;
+}
+.short_by_listing_area .item_right .bootstrap-select {
+  width: 82px !important;
+}
+.short_by_listing_area .item_right .bootstrap-select .dropdown-toggle {
+  background: transparent;
+  border: 1px solid #e1e2e9;
+  outline: none !important;
+  box-shadow: none;
+}
+.short_by_listing_area .item_right .bootstrap-select .dropdown-toggle .filter-option {
+  font-size: 14px;
+  color: #617279;
+  font-family: "Roboto", sans-serif;
+}
+.short_by_listing_area .item_right .bootstrap-select .dropdown-toggle .bs-caret .caret {
+  display: none;
+}
+.short_by_listing_area .item_right .bootstrap-select .dropdown-toggle .bs-caret:before {
+  content: "\e874";
+  font-family: 'Linearicons-Free';
+  color: #617279;
+  font-size: 11px;
+}
+.short_by_listing_area .item_right .bootstrap-select .dropdown-menu .dropdown-menu.inner li a {
+  outline: none;
+}
+
+.men_clothing_add img {
+  max-width: 100%;
+}
+
+/* End Product grid chart area css
+============================================================================================ */
+/* Product Details area css
+============================================================================================ */
+.product_detail_area {
+  background: #f4f5f9;
+  padding: 60px 0px;
+}
+.product_detail_area .product_detail_image .tab-content .tab-pane img {
+  max-width: 100%;
+}
+.product_detail_area .product_detail_list {
+  padding: 0px;
+  margin-top: 10px;
+}
+.product_detail_area .product_detail_list .nav.nav-tabs {
+  border: none;
+}
+.product_detail_area .product_detail_list .nav.nav-tabs li {
+  float: left;
+  padding-right: 10px;
+}
+.product_detail_area .product_detail_list .nav.nav-tabs li a {
+  padding: 0px;
+  border: none;
+  margin: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.product_detail_area .product_detail_list .nav.nav-tabs li a img {
+  max-width: 100%;
+}
+.product_detail_area .product_detail_list .nav.nav-tabs li:last-child {
+  padding-right: 0px;
+}
+
+.product_detail_content .in_stock {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  background: #b6ff9c;
+  padding: 0px 15px;
+  line-height: 26px;
+  display: inline-block;
+  border-radius: 13px;
+}
+.product_detail_content h3 {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  color: #3c4351;
+  font-weight: bold;
+  padding: 18px 0px;
+}
+.product_detail_content nav {
+  display: inline-block;
+}
+.product_detail_content nav ul li {
+  display: inline-block;
+}
+.product_detail_content nav ul li a {
+  font-size: 18px;
+  color: #3c4351;
+}
+.product_detail_content .review_btn {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  color: #636c7f;
+  padding-left: 15px;
+}
+.product_detail_content p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 26px;
+  color: #636c7f;
+  padding-bottom: 30px;
+}
+.product_detail_content p + p {
+  padding-bottom: 0px;
+}
+.product_detail_content del {
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  letter-spacing: .20px;
+  color: #b9bfcc;
+  padding: 35px 0px;
+}
+.product_detail_content h4 {
+  display: inline-block;
+  color: #2c92e0;
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  letter-spacing: .20px;
+  padding-left: 15px;
+}
+.product_detail_content .quantity_area {
+  border-top: 1px solid #e1e3eb;
+  border-bottom: 1px solid #e1e3eb;
+  padding: 20px 0px;
+}
+.product_detail_content .quantity_area h5 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #3c4351;
+  padding-right: 30px;
+}
+.product_detail_content .quantity_area .custom {
+  display: inline-block;
+  position: relative;
+  background: #fff;
+  max-width: 198px;
+  width: 100%;
+}
+.product_detail_content .quantity_area .custom input {
+  width: 145px;
+  background: #fff;
+  outline: none;
+  border: none;
+  line-height: 50px;
+  font-size: 16px;
+  color: #636c7f;
+  padding: 0px 18px;
+}
+.product_detail_content .quantity_area .custom .items-count {
+  position: absolute;
+  border: none;
+  background: transparent;
+  width: 50px;
+  right: 0px;
+  border-left: 1px solid #f4f5f9;
+  padding: 3px 0px;
+  outline: none;
+}
+.product_detail_content .quantity_area .custom .items-count i {
+  font-size: 12px;
+  color: #636c7f;
+}
+.product_detail_content .quantity_area .custom .reduced {
+  bottom: 0px;
+  border-bottom: 1px solid #f4f5f9;
+}
+.product_detail_content .quantity_area .custom .increase {
+  top: 0px;
+}
+.product_detail_content .quantity_area .add_to_cart {
+  display: inline-block;
+  margin: 0px 20px;
+  line-height: 50px;
+}
+.product_detail_content .quantity_area .heart_btn {
+  display: inline-block;
+  border: 1px solid #2c92e0;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #2c92e0;
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+}
+
+/* End Product Details area css
+============================================================================================ */
+/* Product Description css
+============================================================================================ */
+.detail_description {
+  background: #f4f5f9;
+  padding-bottom: 100px;
+}
+.detail_description .detail_description_list .nav.nav-tabs {
+  border: none;
+}
+.detail_description .detail_description_list .nav.nav-tabs li {
+  float: none;
+  margin-bottom: 10px;
+}
+.detail_description .detail_description_list .nav.nav-tabs li a {
+  border: none;
+  padding: 0px 20px;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  line-height: 60px;
+  display: block;
+  background: #fff;
+  letter-spacing: .20px;
+  color: #3c4351;
+  border-radius: 0px;
+  transition: all 400ms linear 0s;
+}
+.detail_description .detail_description_list .nav.nav-tabs li:hover a, .detail_description .detail_description_list .nav.nav-tabs li.active a {
+  background: #3c4351;
+  color: #fff;
+}
+.detail_description .men_clothing_add.add_space {
+  text-align: center;
+}
+.detail_description .men_clothing_tittle h2 {
+  line-height: 18px;
+}
+
+.detail_description_content {
+  background: #fff;
+  margin-left: -20PX;
+  padding: 40px 26px 40px 40px;
+}
+.detail_description_content .tab-pane h4 {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  letter-spacing: 0.20px;
+  color: #3c4351;
+}
+.detail_description_content .tab-pane p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 26px;
+  color: #636c7f;
+  padding-top: 30px;
+  font-weight: normal;
+}
+
+/* End Product Description css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Banner css area
+============================================================================================ */
+.banner_area {
+  background: url(../img/banner/category_banner.jpg) no-repeat scroll center center;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+}
+.banner_area:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(39, 54, 73, 0.82);
+}
+.banner_area .banner_tittle {
+  text-align: center;
+  position: relative;
+  padding: 56px 0px;
+}
+.banner_area .banner_tittle h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: .20px;
+  color: #fff;
+}
+.banner_area .banner_page_ling {
+  position: relative;
+  background: rgba(0, 0, 0, 0.15);
+  text-align: center;
+  padding: 15px 0px;
+}
+.banner_area .banner_page_ling a {
+  color: #7d94b1;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: .20px;
+}
+.banner_area .banner_page_ling i {
+  font-size: 12px;
+  color: #7d94b1;
+}
+
+/* End Banner css area
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Table area css
+============================================================================================ */
+.checkout_area {
+  background: #f4f5f9;
+}
+.checkout_area .checkout_inner_area {
+  background: #fff;
+  margin: 100px 0px;
+}
+
+.checkout_inner_first {
+  border-bottom: 1px solid #f4f5f9;
+}
+
+.item_price_area {
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.item_price_area .table-responsive .table {
+  text-align: center;
+}
+.item_price_area .table-responsive .table thead {
+  text-align: center;
+  background: #f4f5f9;
+}
+.item_price_area .table-responsive .table thead tr th {
+  width: calc(100% / 3);
+  text-align: center;
+  border: none;
+  font-family: "Roboto Slab", serif;
+  color: #3c4351;
+  letter-spacing: .20px;
+  font-size: 18px;
+  line-height: 60px;
+  padding: 0px;
+}
+.item_price_area .table-responsive .table tbody tr td {
+  border: none;
+  padding-top: 30px;
+  font-size: 16px;
+  color: #3c4351;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.item_price_area .table-responsive .table tbody tr td img {
+  padding-right: 30px;
+}
+.item_price_area .table-responsive .table tbody tr td a {
+  font-size: 16px;
+  color: #3c4351;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.item_price_area h4 {
+  font-family: "Roboto Slab", serif;
+  color: #3c4351;
+  font-size: 18px;
+  letter-spacing: .20px;
+  font-weight: bold;
+  background: #f4f5f9;
+  line-height: 60px;
+  padding-left: 18px;
+}
+
+.personal_info_area {
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.personal_info_area h3 {
+  font-family: "Roboto Slab", serif;
+  color: #3c4351;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f4f5f9;
+}
+.personal_info_area .form-group {
+  margin-bottom: 0px;
+}
+.personal_info_area .form-group label {
+  font-size: 18px;
+  color: #3c4351;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  letter-spacing: .20px;
+  padding: 30px 0px 15px 0px;
+  margin-bottom: 0px;
+}
+.personal_info_area .form-group p {
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  color: #636c7f;
+  padding-bottom: 30px;
+}
+.personal_info_area .form-group input {
+  border: none;
+  background: #f4f5f9;
+  box-shadow: none;
+  padding: 0px 18px;
+  line-height: 60px;
+  height: 60px;
+  vertical-align: middle;
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  color: #636c7f;
+  border-radius: 0px;
+}
+.personal_info_area .form-group input.placeholder {
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  color: #636c7f;
+}
+.personal_info_area .form-group input:-moz-placeholder {
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  color: #636c7f;
+}
+.personal_info_area .form-group input::-moz-placeholder {
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  color: #636c7f;
+}
+.personal_info_area .form-group input::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  color: #636c7f;
+}
+.personal_info_area h4 {
+  padding: 30px 0px;
+  font-size: 18px;
+  color: #3c4351;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  letter-spacing: .20px;
+}
+
+/* End Table area css
+============================================================================================ */
+/* Cart area css
+============================================================================================ */
+.shopping_cart_area {
+  background: #f4f5f9;
+  padding-top: 100px;
+}
+.shopping_cart_area .shopping_cart_inner {
+  background: #fff;
+}
+.shopping_cart_area .shopping_cart_inner .table {
+  margin-bottom: 0px;
+}
+.shopping_cart_area .shopping_cart_inner .table thead tr {
+  border-bottom: 1px solid #f4f5f9;
+}
+.shopping_cart_area .shopping_cart_inner .table thead tr th {
+  border: none;
+  text-align: center;
+  width: calc(95% / 5);
+  border-left: 1px solid #f4f5f9;
+  padding: 0px;
+  line-height: 60px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3c4351;
+  letter-spacing: .20px;
+}
+.shopping_cart_area .shopping_cart_inner .table thead tr th:last-child {
+  width: 5%;
+}
+.shopping_cart_area .shopping_cart_inner .table tbody tr td {
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  border-left: 1px solid #f4f5f9;
+  padding: 30px 0px 0px 0px;
+  font-size: 16px;
+  color: #3c4351;
+  font-family: "Roboto", sans-serif;
+}
+.shopping_cart_area .shopping_cart_inner .table tbody tr:last-child td {
+  padding-bottom: 55px;
+}
+
+.total_price_area {
+  text-align: right;
+  padding-bottom: 100px;
+}
+.total_price_area h3 {
+  color: #3c4351;
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  padding: 40px 0px 20px 0px;
+}
+.total_price_area h3 span {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  vertical-align: middle;
+  padding-right: 20px;
+  font-weight: 400;
+}
+.total_price_area p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  font-weight: 400;
+  padding-bottom: 60px;
+}
+.total_price_area a {
+  margin-left: 3px;
+}
+
+/* End Cart area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Pricing area css
+============================================================================================ */
+.product_comparison_area {
+  background: #f4f5f9;
+  padding: 100px 0px;
+}
+.product_comparison_area .product_comparison_inner {
+  background: #fff;
+}
+.product_comparison_area .add_cart {
+  margin-top: 40px;
+}
+
+.summary_area {
+  width: 19%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  top: 293px;
+}
+.summary_area h3 {
+  letter-spacing: .20px;
+  font-family: "Roboto Slab", serif;
+  color: #636c7f;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 50px;
+  padding-bottom: 26px;
+}
+
+.summary_list li a {
+  color: #636c7f;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  border-bottom: 1px solid #f4f5f9;
+  display: block;
+  line-height: 50px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.product_price_area {
+  float: left;
+  width: 27%;
+  overflow: hidden;
+  border-left: 1px solid #f4f5f9;
+  text-align: center;
+}
+.product_price_area img {
+  padding: 35px 0px 10px 0px;
+}
+.product_price_area h3 {
+  letter-spacing: .20px;
+  font-family: "Roboto Slab", serif;
+  color: #3c4351;
+  font-size: 18px;
+}
+.product_price_area h4 {
+  color: #2c92e0;
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  font-weight: bold;
+  padding: 12px 0px;
+}
+.product_price_area h5 {
+  font-size: 18px;
+  color: #fb5c5c;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 15px;
+}
+
+.cart_btn_list {
+  padding-bottom: 15px;
+}
+.cart_btn_list li {
+  display: inline-block;
+  margin-right: 7px;
+}
+.cart_btn_list li a {
+  background: #3c4351;
+  color: #fff;
+  display: block;
+  height: 35px;
+  width: 45px;
+  text-align: center;
+  line-height: 37px;
+  vertical-align: middle;
+  transition: all 400ms linear 0s;
+}
+.cart_btn_list li:last-child {
+  margin-right: 0px;
+}
+.cart_btn_list li:hover a {
+  background: #2c92e0;
+}
+
+.pricing_list li a {
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border-bottom: 1px solid #f4f5f9;
+  display: block;
+  line-height: 50px;
+}
+
+/* End Pricing area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Main Blog area css
+============================================================================================ */
+.main_blog_area {
+  padding: 100px 0px;
+}
+
+.main_blog_inner {
+  margin-bottom: 60px;
+}
+.main_blog_inner .blog_image {
+  position: relative;
+  overflow: hidden;
+}
+.main_blog_inner .blog_image img {
+  width: 100%;
+}
+.main_blog_inner .blog_image .image_hover {
+  background: rgba(60, 67, 81, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.main_blog_inner .blog_content h3 {
+  color: #3c4351;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  padding: 40px 0px 15px 0px;
+  font-weight: bold;
+}
+.main_blog_inner .blog_content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #636c7f;
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
+  padding: 26px 0px;
+}
+.main_blog_inner .blog_content .f_subs_btn {
+  max-width: 140px;
+  width: 100%;
+}
+
+.blog_author_area span {
+  color: #636c7f;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  padding-right: 28px;
+  position: relative;
+}
+.blog_author_area span a {
+  font-size: 16px;
+  color: #3c4351;
+  font-family: "Roboto", sans-serif;
+  padding-left: 4px;
+}
+.blog_author_area span:last-child {
+  padding-right: 0px;
+}
+.blog_author_area span:before {
+  content: "";
+  background: #2c4850;
+  height: 1px;
+  width: 4px;
+  position: absolute;
+  right: 14px;
+  top: 56%;
+  transform: translateY(-50%);
+}
+
+.blog_pagination_area ul {
+  text-align: center;
+  border-bottom: 1px solid #e1e3eb;
+}
+.blog_pagination_area ul li {
+  display: inline-block;
+  margin-right: -4px;
+}
+.blog_pagination_area ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  padding: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.blog_pagination_area ul li a i {
+  vertical-align: middle;
+}
+.blog_pagination_area ul li a:before {
+  content: "";
+  border-bottom: 1px solid #2c92e0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transform: scale(0);
+  transition: all 400ms linear 0s;
+}
+.blog_pagination_area ul li:hover a:before, .blog_pagination_area ul li.active a:before {
+  transform: scale(1);
+}
+
+.widget_tittle h3 {
+  letter-spacing: .20px;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color: #3c4351;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 48px;
+}
+
+.r_widget {
+  margin-bottom: 75px;
+}
+
+.srarch_widget .input-group {
+  border-bottom: 1px solid #e1e3eb;
+}
+.srarch_widget .input-group input {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  color: #829da5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 45px;
+  display: inline-block;
+  height: 45px;
+  padding: 0px 5px 0px 20px;
+}
+.srarch_widget .input-group input.placeholder {
+  color: #829da5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.srarch_widget .input-group input:-moz-placeholder {
+  color: #829da5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.srarch_widget .input-group input::-moz-placeholder {
+  color: #829da5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.srarch_widget .input-group input::-webkit-input-placeholder {
+  color: #829da5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.srarch_widget .input-group .input-group-btn .btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 6px 20px 0px 0px;
+  vertical-align: middle;
+}
+.srarch_widget .input-group .input-group-btn .btn i {
+  color: #2c4850;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.recent_post_list li {
+  margin-bottom: 30px;
+}
+.recent_post_list li .media .media-left {
+  padding-right: 20px;
+}
+.recent_post_list li .media .media-body h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2c4850;
+  padding-bottom: 10px;
+}
+.recent_post_list li .media .media-body a {
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.recent_post_list li:last-child {
+  margin-bottom: 0px;
+}
+
+.categories_list {
+  padding-left: 22px;
+}
+.categories_list li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  display: inline-block;
+  padding-bottom: 10px;
+  transition: all 400ms linear 0s;
+}
+.categories_list li a i {
+  vertical-align: middle;
+  padding-right: 18px;
+}
+.categories_list li:last-child a {
+  padding-bottom: 0px;
+}
+.categories_list li:hover a {
+  color: #2c92e0;
+}
+.categories_list li:hover a i {
+  color: #2c92e0;
+}
+
+.tag_list {
+  margin-left: -7px;
+  margin-top: -7px;
+  margin-right: -7px;
+}
+.tag_list li {
+  display: inline-block;
+  margin: 7px;
+}
+.tag_list li a {
+  display: inline-block;
+  padding: 0px 15px;
+  line-height: 44px;
+  border: 1px solid #e1e3eb;
+  font-size: 16px;
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  transition: all 400ms linear 0s;
+}
+.tag_list li:hover a {
+  color: #2c92e0;
+}
+
+/* End Main Blog area css
+============================================================================================ */
+/* Single blog area css
+============================================================================================ */
+.single_blog_inner .blog_image img {
+  max-width: 100%;
+}
+.single_blog_inner .single_blog_content h3 {
+  color: #3c4351;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: .20px;
+  padding: 40px 0px 15px 0px;
+  font-weight: bold;
+}
+.single_blog_inner .single_blog_content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  padding-top: 30px;
+}
+.single_blog_inner .single_blog_content .blog_quote {
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.single_blog_inner .single_blog_content .blog_quote p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  padding-left: 50px;
+  margin-top: -50px;
+}
+.single_blog_inner .single_blog_content .blog_quote h4 {
+  font: 400 16px "Roboto", sans-serif;
+  color: #636c7f;
+  float: right;
+  padding-bottom: 20px;
+}
+.single_blog_inner .single_blog_content .blog_quote h4 a {
+  font: 500 16px "Roboto", sans-serif;
+  color: #3c4351;
+  text-transform: uppercase;
+}
+.single_blog_inner .single_blog_content .blog_quote h4 a:hover {
+  color: #2883c9;
+}
+.single_blog_inner .single_blog_content .social_share_icon {
+  padding-top: 28px;
+}
+.single_blog_inner .single_blog_content .social_share_icon h5 {
+  color: #3c4351;
+  font: 700 16px "Roboto Slab", serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-right: 5px;
+}
+.single_blog_inner .single_blog_content .social_share_icon ul {
+  display: inline-block;
+}
+.single_blog_inner .single_blog_content .social_share_icon ul li {
+  display: inline-block;
+}
+.single_blog_inner .single_blog_content .social_share_icon ul li a {
+  color: #636c7f;
+  font-size: 16px;
+  padding-left: 15px;
+}
+.single_blog_inner .single_blog_content .comment {
+  padding-top: 40px;
+}
+.single_blog_inner .single_blog_content .comment h5 {
+  color: #3c4351;
+  font: 700 16px "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+.single_blog_inner .single_blog_content .comment .media {
+  border-bottom: 1px solid #e1e3eb;
+  padding-top: 30px;
+}
+.single_blog_inner .single_blog_content .comment .media:last-child {
+  border: none;
+}
+.single_blog_inner .single_blog_content .comment .media .media-left {
+  padding-right: 30px;
+}
+.single_blog_inner .single_blog_content .comment .media .media-left a img {
+  border-radius: 50%;
+}
+.single_blog_inner .single_blog_content .comment .media .media-body a {
+  font: 400 16px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #3c4351;
+}
+.single_blog_inner .single_blog_content .comment .media .media-body a:hover, .single_blog_inner .single_blog_content .comment .media .media-body a:focus {
+  color: #2883c9;
+}
+.single_blog_inner .single_blog_content .comment .media .media-body p {
+  font: 400 16px "Roboto", sans-serif;
+  color: #636c7f;
+  padding-top: 20px;
+}
+.single_blog_inner .single_blog_content .comment .media .media-body ul {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.single_blog_inner .single_blog_content .comment .media .media-body ul li {
+  display: inline-block;
+}
+.single_blog_inner .single_blog_content .comment .media .media-body ul li a {
+  font: 400 16px "Roboto", sans-serif;
+  color: #636c7f;
+  padding-right: 30px;
+}
+.single_blog_inner .single_blog_content .comment .media .media-body ul li a i {
+  padding-right: 10px;
+}
+.single_blog_inner .single_blog_content .comment .media .media-body ul li a:hover, .single_blog_inner .single_blog_content .comment .media .media-body ul li a:focus {
+  color: #2883c9;
+}
+.single_blog_inner .single_blog_content .leave_comment .title h3 {
+  font: 700 16px "Roboto Slab", serif;
+  color: #2c4850;
+  text-transform: uppercase;
+  padding-bottom: 55px;
+  letter-spacing: 0.2px;
+  padding-top: 25px;
+}
+.single_blog_inner .single_blog_content .leave_comment .comment_box .comment_left .contact_box input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  height: auto;
+  border-bottom: 1px solid #e1e3eb;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: none;
+  color: #829da5;
+  font: 400 16px "Roboto", sans-serif;
+}
+.single_blog_inner .single_blog_content .leave_comment .comment_box .comment_left .contact_box input:last-child {
+  margin-bottom: 0;
+}
+.single_blog_inner .single_blog_content .leave_comment .comment_box .comment_left .contact_box input:focus {
+  box-shadow: none;
+}
+.single_blog_inner .single_blog_content .leave_comment .comment_box .comment_right textarea {
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  border-radius: 0;
+  resize: none;
+  height: 200px;
+  color: #829da5;
+  font: 400 16px "Roboto", sans-serif;
+  border-bottom: 1px solid #e1e3eb;
+  box-shadow: none;
+}
+.single_blog_inner .single_blog_content .leave_comment .comment_box .comment_right textarea:focus {
+  box-shadow: none;
+}
+.single_blog_inner .single_blog_content .leave_comment .Send_Message {
+  margin-top: 30px;
+  padding-left: 68px;
+}
+.single_blog_inner .single_blog_content .leave_comment .Send_Message i {
+  font-size: 20px;
+}
+
+/* End Single blog area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Footer area css
+============================================================================================ */
+.footer_area .main_footer {
+  background: #f0f3f8;
+  padding-top: 90px;
+  padding-bottom: 55px;
+}
+.footer_area .main_footer .widget_inner {
+  padding-bottom: 60px;
+}
+.footer_area .main_footer .col-md-3:nth-child(3) {
+  padding-left: 55px;
+}
+.footer_area .main_footer .col-md-3:last-child {
+  padding-left: 30px;
+}
+
+.f_widget_tittle {
+  padding-bottom: 35px;
+}
+.f_widget_tittle h3 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #636c7f;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.f_service_widget p {
+  font-size: 14px;
+  color: #636c7f;
+  line-height: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.f_newsletter_widget input {
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 0px 15px 0 20px;
+  line-height: 42px;
+  border-radius: 3px;
+  outline: none;
+  color: #9aa2b2;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.f_newsletter_widget input.placeholder {
+  color: #9aa2b2;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.f_newsletter_widget input:-moz-placeholder {
+  color: #9aa2b2;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.f_newsletter_widget input::-moz-placeholder {
+  color: #9aa2b2;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.f_newsletter_widget input::-webkit-input-placeholder {
+  color: #9aa2b2;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.f_buy_widget ul li a {
+  font-size: 14px;
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+}
+
+.f_promotion_widget ul li a {
+  font-size: 14px;
+  color: #636c7f;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+}
+
+/* End Footer area css
+============================================================================================ */
+/* Card area css
+============================================================================================ */
+.footer_business_card .card_image {
+  text-align: center;
+  padding: 55px 0px;
+  border-top: 1px solid #dfe3e9;
+}
+.footer_business_card .card_image img {
+  max-width: 100%;
+}
+
+/* End Card area css
+============================================================================================ */
+/* Copyright area css
+============================================================================================ */
+.copyright_footer {
+  background: #e2e6ec;
+}
+.copyright_footer h4 {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 60px;
+  color: #636c7f;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* End Copyright area css
+============================================================================================ */
+/* Footer Color variation 2
+============================================================================================ */
+.footer_area.footer_style2 .main_footer {
+  background: #273649;
+}
+.footer_area.footer_style2 .f_widget_tittle h3 {
+  color: #7d94b1;
+}
+.footer_area.footer_style2 .f_service_widget p {
+  color: #7d94b1;
+}
+.footer_area.footer_style2 .f_buy_widget ul li a {
+  color: #7d94b1;
+}
+.footer_area.footer_style2 .f_promotion_widget ul li a {
+  color: #7d94b1;
+}
+.footer_area.footer_style2 .f_newsletter_widget input {
+  color: #9aa2b2;
+}
+.footer_area.footer_style2 .f_newsletter_widget input.placeholder {
+  color: #9aa2b2;
+}
+.footer_area.footer_style2 .f_newsletter_widget input:-moz-placeholder {
+  color: #9aa2b2;
+}
+.footer_area.footer_style2 .f_newsletter_widget input::-moz-placeholder {
+  color: #9aa2b2;
+}
+.footer_area.footer_style2 .f_newsletter_widget input::-webkit-input-placeholder {
+  color: #9aa2b2;
+}
+.footer_area.footer_style2 .footer_business_card .card_image {
+  border-top: 1px solid #7d94b1;
+}
+.footer_area.footer_style2 .copyright_footer {
+  background: #2f3e52;
+}
+.footer_area.footer_style2 .copyright_footer h4 {
+  color: #7d94b1;
+}
+
+/* End Footer Color variation 2
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+.get_touch_area {
+  padding-top: 90px !important;
+  background: #f4f5f9;
+}
+.get_touch_area .section_title {
+  text-align: center;
+}
+.get_touch_area .section_title h3 {
+  color: #3c4351;
+  font: 700 30px "Roboto Slab", serif;
+  padding-bottom: 17px;
+}
+.get_touch_area .section_title p {
+  color: #636c7f;
+  font: 400 16px "Roboto", sans-serif;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.get_touch_area .get_touch {
+  padding: 60px 0;
+  border-bottom: 1px solid #e1e3eb;
+  padding-bottom: 45px;
+}
+.get_touch_area .get_touch .get_touch_inner .item .item_left {
+  padding-right: 30px;
+}
+.get_touch_area .get_touch .get_touch_inner .item .item_left a {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+}
+.get_touch_area .get_touch .get_touch_inner .item .item_left a img {
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.get_touch_area .get_touch .get_touch_inner .item .item_right a {
+  font: normal 14px/26px "Roboto", sans-serif;
+  color: #636c7f;
+  display: block;
+}
+.get_touch_area .get_touch .get_touch_inner .item .item_right a:hover {
+  color: #2883c9;
+}
+.get_touch_area .drop_message {
+  padding-top: 46px;
+  overflow: hidden;
+}
+.get_touch_area .drop_message .title h3 {
+  font: 400 20px/1 "Roboto Slab", serif;
+  color: #3c4351;
+}
+.get_touch_area .drop_message .contact_box {
+  padding: 30px 0;
+}
+.get_touch_area .drop_message .contact_box .input_box {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  border-radius: 0;
+  height: auto;
+}
+.get_touch_area .drop_message .contact_box .input_box.placeholder {
+  font: normal 14px/1 "Roboto", sans-serif;
+  color: #636c7f;
+}
+.get_touch_area .drop_message .contact_box .input_box:-moz-placeholder {
+  font: normal 14px/1 "Roboto", sans-serif;
+  color: #636c7f;
+}
+.get_touch_area .drop_message .contact_box .input_box::-moz-placeholder {
+  font: normal 14px/1 "Roboto", sans-serif;
+  color: #636c7f;
+}
+.get_touch_area .drop_message .contact_box .input_box::-webkit-input-placeholder {
+  font: normal 14px/1 "Roboto", sans-serif;
+  color: #636c7f;
+}
+.get_touch_area .drop_message .contact_box .input_box:focus {
+  box-shadow: none;
+}
+.get_touch_area .drop_message .contact_box textarea {
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  margin-top: 30px;
+  box-shadow: none;
+  outline: none;
+  border-radius: 0;
+  resize: none;
+  height: 228px;
+}
+.get_touch_area .drop_message .contact_box textarea.placeholder {
+  font: normal 14px/1 "Roboto", sans-serif;
+  color: #636c7f;
+}
+.get_touch_area .drop_message .contact_box textarea:-moz-placeholder {
+  font: normal 14px/1 "Roboto", sans-serif;
+  color: #636c7f;
+}
+.get_touch_area .drop_message .contact_box textarea::-moz-placeholder {
+  font: normal 14px/1 "Roboto", sans-serif;
+  color: #636c7f;
+}
+.get_touch_area .drop_message .contact_box textarea::-webkit-input-placeholder {
+  font: normal 14px/1 "Roboto", sans-serif;
+  color: #636c7f;
+}
+.get_touch_area .drop_message .contact_box textarea:focus {
+  box-shadow: none;
+}
+.get_touch_area .drop_message .contact_box .button {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.get_touch_area .drop_message .contact_box .button a {
+  padding-left: 70px;
+  padding-right: 24px;
+}
+.get_touch_area .drop_message #success {
+  display: none;
+}
+.get_touch_area .drop_message #error {
+  display: none;
+}
+
+/*---------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */
